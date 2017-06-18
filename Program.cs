@@ -17,6 +17,11 @@ namespace Aplikacja1
             Console.WriteLine(f.CzyMoznaPrzesunac(p2));
 
 
+            
+Szachownica sz=new Szachownica();
+sz['A', 1] = "test";
+Console.WriteLine(sz['A',1]);
+
         }
     }
 }
